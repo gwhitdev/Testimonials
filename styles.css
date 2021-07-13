@@ -5,12 +5,13 @@
     --white: #FFFFFF;
     --lightgray: #CFCFCF;
 }
-
+body {
+    background-color: #F2F2F2;
+}
 .container {
     display: flex;
     margin: 0 auto;
     width: 80%;
-
 }
 
 .grid {
@@ -137,7 +138,7 @@
 
 @media  (min-width:1440px) {
     .container {
-        margin: 0 auto;
+        margin: 5% auto;
     }
     .grid {
         display: inline-grid;
